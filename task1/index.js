@@ -32,3 +32,23 @@ do {
   console.log(email)
 }
 while((/^[A-Za-z]{3,}[@][0-9]{3}[.com]{$/.test(email)))
+ let color 
+ color = prompt("Enter Your fav color blue , red or green")
+  switch (color)
+ {case 'blue':
+  document.body.style.color = 'Blue' ;
+  break ; ;
+  case 'green':
+  document.body.style.color = 'Green' ;
+  break ;
+  case 'red':
+    document.body.style.color = 'Red' ;
+    break ;
+    default :
+    prompt("Enter Your fav color blue , red or green") ;
+      break ;
+  }
+document.username.style.color = 'Black' ;
+document.phoneNumber.style.color = 'Black' ;
+document.MobilePhone.style.color = 'Black' ;
+document.email.style.color = 'Black' ;
