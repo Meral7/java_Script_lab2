@@ -25,11 +25,12 @@ function SquareRoot() {
         SquareRoot();
 
     function CosineDeg() {
-        let angle = prompt("Enter an angle (in degrees) to calculate its cosine:");
+        let angle = prompt("Enter an angle (in degrees) to calculate its cos :");
     if (!isNaN(angle)) {
         let radians = angle * (Math.PI / 180);
         let cosineValue = Math.cos(radians);
-        document.write("The cosine of " + angle + " is " + cosineValue);
+        document.write("The cosine of " + angle + " is " + cosineValue + "°");
+        document.write("")
     } else {
         alert("invalid number");
     }
